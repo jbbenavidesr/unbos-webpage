@@ -1,0 +1,15 @@
+{
+    "name": "Unbos",
+    "version": "1.0.0",
+    "description": "Grupo de divulgación en óptica de la Univerdidad Nacional de Colombia.",
+    "main": ".eleventy.js",
+    "scripts": {
+        "start": "npx eleventy --serve"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@11ty/eleventy": "^0.11.0"
+    }
+}
