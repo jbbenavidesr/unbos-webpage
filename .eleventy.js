@@ -1,4 +1,12 @@
 module.exports = (config) => {
+    // Returns sponsor items
+    config.addCollection('sponsors', (collection) => {
+        return collection.getFilteredByGlob('./src/sponsors/*.md');
+    });
+
+    // Set directories to pass through to the dist folder
+    config.addPassthroughCopy('./src/images/');
+
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',

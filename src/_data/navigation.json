@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "text": "UNBOS",
+            "url": "/"
+        },
+        {
+            "text": "Miembros",
+            "url": "/members/"
+        },
+        {
+            "text": "Actividades",
+            "url": "/activities/"
+        },
+        {
+            "text": "Contacto",
+            "url": "/contact/"
+        }
+    ]
+}

@@ -2,7 +2,7 @@
 title: 'Unbos'
 layout: 'layouts/home.html'
 intro:
-    bgImage: '/images/bg/main.png'
+    bgImage: '/images/bg/home.tif'
     image: '/images/logo.png'
     imageAlt: 'UNBOS, capítulo estudiantil de la Universidad Nacional de Colombia'
 aboutUs:
@@ -15,4 +15,6 @@ aboutUs:
 ourWork:
     title: ¿Qué hacemos?
     summary: 'Por ahora nada :v'
+sponsors:
+    heading: 'Patrocinadores'
 ---

@@ -23,4 +23,8 @@
             {{ ourWork.summary }}
         </p>
     </div>
+
+    {% set galleryHeading = sponsors.heading %}
+    {% set galleryItems = collections.sponsors %}
+    {% include "partials/gallery.html" %}
 {% endblock %}

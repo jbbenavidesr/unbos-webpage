@@ -1,0 +1,19 @@
+<div class="gallery">
+    <h2 class="gallery__heading">
+        {{ galleryHeading }}
+    </h2>
+    <div class="gallery__content">
+        <ul class="gallery__items">
+            {% for item in galleryItems %}
+                <li class="gallery__item">
+                    <div class="gallery__img">
+                        <img src="{{ item.data.image }}" alt="{{ item.data.name }}">
+                    </div>
+                    {% if item.data.name %}
+                        <h3>{{ item.data.name }}</h3>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
